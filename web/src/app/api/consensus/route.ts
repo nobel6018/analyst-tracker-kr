@@ -1,6 +1,11 @@
 import { NextResponse } from "next/server";
-import consensusData from "@/data/consensus.json";
 
 export async function GET() {
-  return NextResponse.json(consensusData);
+  if (process.env.VERCEL) {
+    const data = await import("@/data/consensus.json");
+    return NextResponse.json(data.default);
+  }
+
+  const { getConsensus } = await import("@/lib/db");
+  return NextResponse.json(getConsensus());
 }

@@ -1,9 +1,11 @@
 import Database from "better-sqlite3";
 import path from "path";
 
+// web/ 기준: analyst-tracker-kr/web → analyst-tracker-kr → leedo → analyst-poc
+// 실제 DB: ~/leedo/analyst-poc/analyst.db
 const DB_PATH =
   process.env.DB_PATH ||
-  path.join(process.cwd(), "../analyst-poc/analyst.db");
+  path.join(process.cwd(), "../../analyst-poc/analyst.db");
 
 let _db: Database.Database | null = null;
 

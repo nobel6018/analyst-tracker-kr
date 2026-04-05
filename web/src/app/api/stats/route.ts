@@ -1,6 +1,11 @@
 import { NextResponse } from "next/server";
-import statsData from "@/data/stats.json";
 
 export async function GET() {
-  return NextResponse.json(statsData);
+  if (process.env.VERCEL) {
+    const data = await import("@/data/stats.json");
+    return NextResponse.json(data.default);
+  }
+
+  const { getStats } = await import("@/lib/db");
+  return NextResponse.json(getStats());
 }
