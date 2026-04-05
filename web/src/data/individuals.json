@@ -1,0 +1,167 @@
+[
+  {
+    "firm_name": "미래에셋증권",
+    "analyst_name": "김진석",
+    "evaluated_reports": 4,
+    "success_rate": 1.0,
+    "avg_return_pct": -3.28,
+    "z_score": 2.0,
+    "star_rating": null,
+    "is_stat_significant": 0,
+    "buy_hit_rate": 1.0
+  },
+  {
+    "firm_name": "키움증권",
+    "analyst_name": "신윤철",
+    "evaluated_reports": 4,
+    "success_rate": 1.0,
+    "avg_return_pct": 8.4,
+    "z_score": 2.0,
+    "star_rating": null,
+    "is_stat_significant": 0,
+    "buy_hit_rate": 1.0
+  },
+  {
+    "firm_name": "한화투자증권",
+    "analyst_name": "이용욱",
+    "evaluated_reports": 4,
+    "success_rate": 1.0,
+    "avg_return_pct": 17.18,
+    "z_score": 2.0,
+    "star_rating": null,
+    "is_stat_significant": 0,
+    "buy_hit_rate": 1.0
+  },
+  {
+    "firm_name": "한화투자증권",
+    "analyst_name": "김성래",
+    "evaluated_reports": 6,
+    "success_rate": 0.8333,
+    "avg_return_pct": 7.62,
+    "z_score": 1.633,
+    "star_rating": null,
+    "is_stat_significant": 0,
+    "buy_hit_rate": 0.8333
+  },
+  {
+    "firm_name": "키움증권",
+    "analyst_name": "박유악",
+    "evaluated_reports": 10,
+    "success_rate": 0.7,
+    "avg_return_pct": 28.63,
+    "z_score": 1.265,
+    "star_rating": 3,
+    "is_stat_significant": 1,
+    "buy_hit_rate": 0.7
+  },
+  {
+    "firm_name": "하나증권",
+    "analyst_name": "송선재",
+    "evaluated_reports": 3,
+    "success_rate": 0.6667,
+    "avg_return_pct": -11.43,
+    "z_score": 0.577,
+    "star_rating": null,
+    "is_stat_significant": 0,
+    "buy_hit_rate": 0.6667
+  },
+  {
+    "firm_name": "신한투자증권",
+    "analyst_name": "김형태",
+    "evaluated_reports": 4,
+    "success_rate": 0.5,
+    "avg_return_pct": 18.37,
+    "z_score": 0.0,
+    "star_rating": null,
+    "is_stat_significant": 0,
+    "buy_hit_rate": 0.5
+  },
+  {
+    "firm_name": "하나증권",
+    "analyst_name": "김록호",
+    "evaluated_reports": 7,
+    "success_rate": 0.4286,
+    "avg_return_pct": 20.75,
+    "z_score": -0.378,
+    "star_rating": null,
+    "is_stat_significant": 0,
+    "buy_hit_rate": 0.4286
+  },
+  {
+    "firm_name": "미래에셋증권",
+    "analyst_name": "김철중",
+    "evaluated_reports": 3,
+    "success_rate": 0.3333,
+    "avg_return_pct": 20.23,
+    "z_score": -0.577,
+    "star_rating": null,
+    "is_stat_significant": 0,
+    "buy_hit_rate": 0.3333
+  },
+  {
+    "firm_name": "신한투자증권",
+    "analyst_name": "강석오",
+    "evaluated_reports": 5,
+    "success_rate": 0.2,
+    "avg_return_pct": -14.56,
+    "z_score": -1.342,
+    "star_rating": null,
+    "is_stat_significant": 0,
+    "buy_hit_rate": 0.0
+  },
+  {
+    "firm_name": "IBK투자증권",
+    "analyst_name": "이승훈",
+    "evaluated_reports": 4,
+    "success_rate": 0.0,
+    "avg_return_pct": -20.11,
+    "z_score": -2.0,
+    "star_rating": null,
+    "is_stat_significant": 0,
+    "buy_hit_rate": 0.0
+  },
+  {
+    "firm_name": "키움증권",
+    "analyst_name": "김진구",
+    "evaluated_reports": 6,
+    "success_rate": 0.0,
+    "avg_return_pct": -14.74,
+    "z_score": -2.449,
+    "star_rating": null,
+    "is_stat_significant": 0,
+    "buy_hit_rate": 0.0
+  },
+  {
+    "firm_name": "미래에셋증권",
+    "analyst_name": "김영건",
+    "evaluated_reports": 10,
+    "success_rate": 0.1,
+    "avg_return_pct": -0.83,
+    "z_score": -2.53,
+    "star_rating": 1,
+    "is_stat_significant": 1,
+    "buy_hit_rate": 0.1
+  },
+  {
+    "firm_name": "미래에셋증권",
+    "analyst_name": "임희석",
+    "evaluated_reports": 7,
+    "success_rate": 0.0,
+    "avg_return_pct": -9.05,
+    "z_score": -2.646,
+    "star_rating": null,
+    "is_stat_significant": 0,
+    "buy_hit_rate": 0.0
+  },
+  {
+    "firm_name": "한화투자증권",
+    "analyst_name": "김소혜",
+    "evaluated_reports": 8,
+    "success_rate": 0.0,
+    "avg_return_pct": -12.23,
+    "z_score": -2.828,
+    "star_rating": null,
+    "is_stat_significant": 0,
+    "buy_hit_rate": 0.0
+  }
+]

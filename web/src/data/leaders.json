@@ -1,0 +1,182 @@
+[
+  {
+    "firm_name": "키움증권",
+    "evaluated_reports": 171,
+    "success_rate": 0.6725,
+    "avg_return_pct": 37.22,
+    "z_score": 4.512,
+    "star_rating": 4,
+    "is_stat_significant": 1,
+    "buy_hit_rate": 0.6564
+  },
+  {
+    "firm_name": "iM증권",
+    "evaluated_reports": 68,
+    "success_rate": 0.7059,
+    "avg_return_pct": 69.9,
+    "z_score": 3.395,
+    "star_rating": 5,
+    "is_stat_significant": 1,
+    "buy_hit_rate": 0.6774
+  },
+  {
+    "firm_name": "신한투자증권",
+    "evaluated_reports": 137,
+    "success_rate": 0.6423,
+    "avg_return_pct": 47.47,
+    "z_score": 3.332,
+    "star_rating": 4,
+    "is_stat_significant": 1,
+    "buy_hit_rate": 0.616
+  },
+  {
+    "firm_name": "현대차증권",
+    "evaluated_reports": 11,
+    "success_rate": 1.0,
+    "avg_return_pct": 125.53,
+    "z_score": 3.317,
+    "star_rating": 5,
+    "is_stat_significant": 1,
+    "buy_hit_rate": 1.0
+  },
+  {
+    "firm_name": "IBK투자증권",
+    "evaluated_reports": 86,
+    "success_rate": 0.6744,
+    "avg_return_pct": 52.68,
+    "z_score": 3.235,
+    "star_rating": 4,
+    "is_stat_significant": 1,
+    "buy_hit_rate": 0.6706
+  },
+  {
+    "firm_name": "유진투자증권",
+    "evaluated_reports": 139,
+    "success_rate": 0.6331,
+    "avg_return_pct": 32.29,
+    "z_score": 3.138,
+    "star_rating": 4,
+    "is_stat_significant": 1,
+    "buy_hit_rate": 0.582
+  },
+  {
+    "firm_name": "대신증권",
+    "evaluated_reports": 168,
+    "success_rate": 0.619,
+    "avg_return_pct": 32.21,
+    "z_score": 3.086,
+    "star_rating": 4,
+    "is_stat_significant": 1,
+    "buy_hit_rate": 0.5817
+  },
+  {
+    "firm_name": "SK증권",
+    "evaluated_reports": 195,
+    "success_rate": 0.6051,
+    "avg_return_pct": 30.38,
+    "z_score": 2.936,
+    "star_rating": 4,
+    "is_stat_significant": 1,
+    "buy_hit_rate": 0.6021
+  },
+  {
+    "firm_name": "DS투자증권",
+    "evaluated_reports": 109,
+    "success_rate": 0.5963,
+    "avg_return_pct": 44.55,
+    "z_score": 2.011,
+    "star_rating": 3,
+    "is_stat_significant": 1,
+    "buy_hit_rate": 0.5963
+  },
+  {
+    "firm_name": "유안타증권",
+    "evaluated_reports": 149,
+    "success_rate": 0.5705,
+    "avg_return_pct": 28.18,
+    "z_score": 1.72,
+    "star_rating": 3,
+    "is_stat_significant": 1,
+    "buy_hit_rate": 0.5646
+  },
+  {
+    "firm_name": "한화투자증권",
+    "evaluated_reports": 166,
+    "success_rate": 0.5663,
+    "avg_return_pct": 39.91,
+    "z_score": 1.708,
+    "star_rating": 3,
+    "is_stat_significant": 1,
+    "buy_hit_rate": 0.5617
+  },
+  {
+    "firm_name": "미래에셋증권",
+    "evaluated_reports": 194,
+    "success_rate": 0.5567,
+    "avg_return_pct": 28.51,
+    "z_score": 1.58,
+    "star_rating": 3,
+    "is_stat_significant": 1,
+    "buy_hit_rate": 0.541
+  },
+  {
+    "firm_name": "하나증권",
+    "evaluated_reports": 211,
+    "success_rate": 0.5403,
+    "avg_return_pct": 34.3,
+    "z_score": 1.17,
+    "star_rating": 2,
+    "is_stat_significant": 1,
+    "buy_hit_rate": 0.52
+  },
+  {
+    "firm_name": "삼성증권",
+    "evaluated_reports": 22,
+    "success_rate": 0.5909,
+    "avg_return_pct": 28.86,
+    "z_score": 0.853,
+    "star_rating": 2,
+    "is_stat_significant": 1,
+    "buy_hit_rate": 0.5909
+  },
+  {
+    "firm_name": "교보증권",
+    "evaluated_reports": 144,
+    "success_rate": 0.5139,
+    "avg_return_pct": 19.35,
+    "z_score": 0.333,
+    "star_rating": 2,
+    "is_stat_significant": 1,
+    "buy_hit_rate": 0.5231
+  },
+  {
+    "firm_name": "메리츠증권",
+    "evaluated_reports": 5,
+    "success_rate": 0.4,
+    "avg_return_pct": 27.33,
+    "z_score": -0.447,
+    "star_rating": null,
+    "is_stat_significant": 0,
+    "buy_hit_rate": 0.4
+  },
+  {
+    "firm_name": "이베스트증권",
+    "evaluated_reports": 21,
+    "success_rate": 0.3333,
+    "avg_return_pct": 21.72,
+    "z_score": -1.528,
+    "star_rating": 1,
+    "is_stat_significant": 1,
+    "buy_hit_rate": 0.3077
+  },
+  {
+    "firm_name": "하이투자증권",
+    "evaluated_reports": 38,
+    "success_rate": 0.2368,
+    "avg_return_pct": -19.66,
+    "z_score": -3.244,
+    "star_rating": 1,
+    "is_stat_significant": 1,
+    "buy_hit_rate": 0.2162
+  }
+]

@@ -1,19 +1,16 @@
 import { NextResponse } from "next/server";
-import { getLeaderboard, getIndividualLeaderboard } from "@/lib/db";
+import leadersData from "@/data/leaders.json";
+import individualsData from "@/data/individuals.json";
 
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
   const type = searchParams.get("type") || "firm";
   const minReports = Number(searchParams.get("min") || 5);
 
-  try {
-    const data =
-      type === "individual"
-        ? getIndividualLeaderboard(minReports)
-        : getLeaderboard(minReports);
-    return NextResponse.json(data);
-  } catch (e) {
-    console.error("[leaderboard]", e);
-    return NextResponse.json({ error: "DB error" }, { status: 500 });
-  }
+  const data =
+    type === "individual"
+      ? individualsData.filter((r) => r.evaluated_reports >= minReports)
+      : leadersData.filter((r) => r.evaluated_reports >= minReports);
+
+  return NextResponse.json(data);
 }
