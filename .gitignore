@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+
+# DB (로컬 데이터, 커밋 제외)
+*.db
+*.db-wal
+*.db-shm
+
+# OCR / PDF 캐시
+/backend/analyst_pdfs/
+
+# Node.js
+node_modules/
+.next/
+out/
+
+# OS
+.DS_Store
+.DS_Store?
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
