@@ -219,6 +219,62 @@ function ConsensusTable({ data }: { data: Consensus[] }) {
   );
 }
 
+/* ─── Subscribe Box ──────────────────────────────────────────────────────── */
+
+function SubscribeBox() {
+  const [email, setEmail] = useState("");
+  const [status, setStatus] = useState<"idle" | "loading" | "ok" | "error">("idle");
+  const [msg, setMsg] = useState("");
+
+  async function submit(e: React.FormEvent) {
+    e.preventDefault();
+    setStatus("loading");
+    try {
+      const res = await fetch("/api/subscribe", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
+      const data = await res.json();
+      if (data.ok) { setStatus("ok"); setMsg(data.message); }
+      else { setStatus("error"); setMsg(data.error ?? "오류가 발생했습니다."); }
+    } catch {
+      setStatus("error"); setMsg("네트워크 오류가 발생했습니다.");
+    }
+  }
+
+  return (
+    <div className="bg-blue-50 border border-blue-100 rounded-xl p-6">
+      <h3 className="text-sm font-semibold text-blue-900 mb-1">새 리포트 알림 받기</h3>
+      <p className="text-xs text-blue-600 mb-4">
+        팔로우한 애널리스트의 새 리포트 발행 시 이메일로 알려드립니다.
+      </p>
+      {status === "ok" ? (
+        <p className="text-sm text-green-700 font-medium">{msg}</p>
+      ) : (
+        <form onSubmit={submit} className="flex gap-2">
+          <input
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            placeholder="이메일 주소 입력"
+            required
+            className="flex-1 text-sm border border-blue-200 rounded-lg px-3 py-2 bg-white focus:outline-none focus:ring-2 focus:ring-blue-400"
+          />
+          <button
+            type="submit"
+            disabled={status === "loading"}
+            className="text-sm bg-blue-600 text-white rounded-lg px-4 py-2 hover:bg-blue-700 disabled:opacity-50 transition-colors"
+          >
+            {status === "loading" ? "등록 중..." : "등록"}
+          </button>
+        </form>
+      )}
+      {status === "error" && <p className="text-xs text-red-500 mt-2">{msg}</p>}
+    </div>
+  );
+}
+
 /* ─── Main ───────────────────────────────────────────────────────────────── */
 
 export default function Home() {
@@ -304,6 +360,9 @@ export default function Home() {
             <LeaderTable data={currentData} showAnalyst={tab === "individual"} />
           )}
         </div>
+
+        {/* 알림 등록 */}
+        <SubscribeBox />
 
         {/* Legend */}
         <div className="text-xs text-gray-400 space-y-1 border-t border-gray-100 pt-4">
