@@ -137,6 +137,105 @@ function weight(starRating: number | null, daysOld: number): number {
   return accuracy * recency;
 }
 
+// ─── 애널리스트 스코어카드 ────────────────────────────────────────────────────
+
+export interface AnalystDetail {
+  firm_name: string;
+  analyst_name: string | null;
+  evaluated_reports: number;
+  hit_count: number;
+  success_rate: number;
+  avg_return_pct: number;
+  z_score: number;
+  star_rating: number | null;
+  is_stat_significant: number;
+  buy_total: number;
+  buy_hit_count: number;
+  buy_hit_rate: number | null;
+  calculated_at: string;
+}
+
+export interface ReportRow {
+  report_date: string;
+  stock_name: string;
+  naver_code: string;
+  opinion: string | null;
+  target_price: number | null;
+  base_price: number | null;
+  hit: number | null;
+  implied_upside_pct: number | null;
+  actual_return_pct: number | null;
+  max_high_1y: number | null;
+}
+
+export interface SectorScore {
+  stock_name: string;
+  naver_code: string;
+  total_reports: number;
+  evaluated_reports: number;
+  hit_count: number;
+  success_rate: number | null;
+  avg_return_pct: number | null;
+}
+
+export function getAnalystScore(firmName: string, analystName: string | null): AnalystDetail | null {
+  const row = getDb()
+    .prepare(
+      `SELECT f.name AS firm_name, s.*
+       FROM analyst_score s
+       JOIN firm f ON f.id = s.firm_id
+       WHERE f.name = ?
+         AND (s.analyst_name = ? OR (? IS NULL AND s.analyst_name IS NULL))`
+    )
+    .get(firmName, analystName, analystName) as AnalystDetail | undefined;
+  return row ?? null;
+}
+
+export function getAnalystReports(firmName: string, analystName: string | null, limit = 50): ReportRow[] {
+  return getDb()
+    .prepare(
+      `SELECT
+         r.report_date, s.name AS stock_name, s.naver_code,
+         r.opinion, r.target_price, r.base_price,
+         rr.hit, rr.implied_upside_pct, rr.actual_return_pct, rr.max_high_1y
+       FROM report r
+       JOIN stock s ON s.id = r.stock_id
+       JOIN firm f ON f.id = r.firm_id
+       LEFT JOIN report_result rr ON rr.report_id = r.id
+       WHERE f.name = ?
+         AND (r.analyst_name = ? OR (? IS NULL AND r.analyst_name IS NULL))
+       ORDER BY r.report_date DESC
+       LIMIT ?`
+    )
+    .all(firmName, analystName, analystName, limit) as ReportRow[];
+}
+
+export function getAnalystSectorScores(firmName: string, analystName: string | null): SectorScore[] {
+  return getDb()
+    .prepare(
+      `SELECT
+         s.name AS stock_name, s.naver_code,
+         COUNT(*) AS total_reports,
+         COUNT(rr.hit) AS evaluated_reports,
+         SUM(CASE WHEN rr.hit = 1 THEN 1 ELSE 0 END) AS hit_count,
+         CASE WHEN COUNT(rr.hit) > 0
+              THEN ROUND(AVG(CASE WHEN rr.hit = 1 THEN 1.0 ELSE 0.0 END), 4)
+              ELSE NULL END AS success_rate,
+         CASE WHEN COUNT(rr.hit) > 0
+              THEN ROUND(AVG(rr.actual_return_pct), 2)
+              ELSE NULL END AS avg_return_pct
+       FROM report r
+       JOIN stock s ON s.id = r.stock_id
+       JOIN firm f ON f.id = r.firm_id
+       LEFT JOIN report_result rr ON rr.report_id = r.id
+       WHERE f.name = ?
+         AND (r.analyst_name = ? OR (? IS NULL AND r.analyst_name IS NULL))
+       GROUP BY s.id
+       ORDER BY evaluated_reports DESC`
+    )
+    .all(firmName, analystName, analystName) as SectorScore[];
+}
+
 // ─── 통계 요약 ─────────────────────────────────────────────────────────────
 
 export interface Stats {

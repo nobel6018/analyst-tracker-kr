@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 
 /* ─── Types ──────────────────────────────────────────────────────────────── */
 
@@ -101,9 +102,16 @@ function SigBadge({ sig }: { sig: number }) {
 /* ─── LeaderTable ────────────────────────────────────────────────────────── */
 
 function LeaderTable({ data, showAnalyst }: { data: Leader[]; showAnalyst: boolean }) {
+  const router = useRouter();
   if (!data.length) {
     return <div className="flex items-center justify-center h-32 text-gray-400 text-sm">데이터 없음</div>;
   }
+
+  function toScorecard(row: Leader) {
+    const name = row.analyst_name ?? "_";
+    router.push(`/analyst/${encodeURIComponent(row.firm_name)}/${encodeURIComponent(name)}`);
+  }
+
   return (
     <div className="overflow-x-auto">
       <table className="w-full text-sm">
@@ -123,7 +131,11 @@ function LeaderTable({ data, showAnalyst }: { data: Leader[]; showAnalyst: boole
         </thead>
         <tbody className="divide-y divide-gray-50">
           {data.map((row, i) => (
-            <tr key={i} className="hover:bg-gray-50 transition-colors">
+            <tr
+              key={i}
+              onClick={() => toScorecard(row)}
+              className="hover:bg-blue-50 cursor-pointer transition-colors"
+            >
               <td className="px-4 py-3 text-gray-400 font-mono">{i + 1}</td>
               <td className="px-4 py-3 font-medium text-gray-900">{row.firm_name}</td>
               {showAnalyst && (
