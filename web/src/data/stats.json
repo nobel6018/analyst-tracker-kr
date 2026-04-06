@@ -1,9 +1,9 @@
 {
-  "total_stocks": 50,
-  "total_reports": 6240,
+  "total_stocks": 54,
+  "total_reports": 6517,
   "evaluated_reports": 5509,
   "total_firms": 30,
-  "total_analysts": 34,
+  "total_analysts": 57,
   "avg_success_rate": 58.1,
   "snapshot_at": "2026-04-06"
 }

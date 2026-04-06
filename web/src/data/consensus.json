@@ -3,8 +3,8 @@
     "stock_name": "고려아연",
     "naver_code": "010130",
     "simple_target": 1475000,
-    "weighted_target": 1695139,
-    "predicted_surprise_pct": 14.92,
+    "weighted_target": 1697417,
+    "predicted_surprise_pct": 15.08,
     "analyst_count": 3,
     "coverage": 1
   },
@@ -12,17 +12,26 @@
     "stock_name": "삼성전기",
     "naver_code": "009150",
     "simple_target": 424615,
-    "weighted_target": 473787,
-    "predicted_surprise_pct": 11.58,
+    "weighted_target": 474101,
+    "predicted_surprise_pct": 11.65,
     "analyst_count": 26,
     "coverage": 13
+  },
+  {
+    "stock_name": "미래에셋증권",
+    "naver_code": "006800",
+    "simple_target": 56409,
+    "weighted_target": 62626,
+    "predicted_surprise_pct": 11.02,
+    "analyst_count": 11,
+    "coverage": 5
   },
   {
     "stock_name": "삼성전자",
     "naver_code": "005930",
     "simple_target": 222108,
-    "weighted_target": 244381,
-    "predicted_surprise_pct": 10.03,
+    "weighted_target": 244552,
+    "predicted_surprise_pct": 10.11,
     "analyst_count": 37,
     "coverage": 12
   },
@@ -30,8 +39,8 @@
     "stock_name": "SK하이닉스",
     "naver_code": "000660",
     "simple_target": 1243167,
-    "weighted_target": 1332038,
-    "predicted_surprise_pct": 7.15,
+    "weighted_target": 1332728,
+    "predicted_surprise_pct": 7.2,
     "analyst_count": 30,
     "coverage": 12
   },
@@ -39,8 +48,8 @@
     "stock_name": "SK",
     "naver_code": "034730",
     "simple_target": 460000,
-    "weighted_target": 484395,
-    "predicted_surprise_pct": 5.3,
+    "weighted_target": 484618,
+    "predicted_surprise_pct": 5.35,
     "analyst_count": 9,
     "coverage": 6
   },
@@ -48,8 +57,8 @@
     "stock_name": "삼성생명",
     "naver_code": "032830",
     "simple_target": 230714,
-    "weighted_target": 240815,
-    "predicted_surprise_pct": 4.38,
+    "weighted_target": 240842,
+    "predicted_surprise_pct": 4.39,
     "analyst_count": 7,
     "coverage": 5
   },
@@ -57,8 +66,8 @@
     "stock_name": "엔씨소프트",
     "naver_code": "036570",
     "simple_target": 323810,
-    "weighted_target": 337091,
-    "predicted_surprise_pct": 4.1,
+    "weighted_target": 337138,
+    "predicted_surprise_pct": 4.12,
     "analyst_count": 21,
     "coverage": 11
   },
@@ -66,8 +75,8 @@
     "stock_name": "한화",
     "naver_code": "000880",
     "simple_target": 143250,
-    "weighted_target": 137996,
-    "predicted_surprise_pct": -3.67,
+    "weighted_target": 137973,
+    "predicted_surprise_pct": -3.68,
     "analyst_count": 4,
     "coverage": 4
   },
@@ -75,8 +84,8 @@
     "stock_name": "LG전자",
     "naver_code": "066570",
     "simple_target": 131056,
-    "weighted_target": 135770,
-    "predicted_surprise_pct": 3.6,
+    "weighted_target": 135808,
+    "predicted_surprise_pct": 3.63,
     "analyst_count": 18,
     "coverage": 12
   },
@@ -84,8 +93,8 @@
     "stock_name": "현대모비스",
     "naver_code": "012330",
     "simple_target": 544412,
-    "weighted_target": 562263,
-    "predicted_surprise_pct": 3.28,
+    "weighted_target": 562400,
+    "predicted_surprise_pct": 3.3,
     "analyst_count": 17,
     "coverage": 13
   },
@@ -93,8 +102,8 @@
     "stock_name": "한화솔루션",
     "naver_code": "009830",
     "simple_target": 44615,
-    "weighted_target": 43231,
-    "predicted_surprise_pct": -3.1,
+    "weighted_target": 43227,
+    "predicted_surprise_pct": -3.11,
     "analyst_count": 13,
     "coverage": 7
   },
@@ -102,7 +111,7 @@
     "stock_name": "한국항공우주",
     "naver_code": "047810",
     "simple_target": 186875,
-    "weighted_target": 181142,
+    "weighted_target": 181136,
     "predicted_surprise_pct": -3.07,
     "analyst_count": 8,
     "coverage": 7
@@ -111,8 +120,8 @@
     "stock_name": "POSCO홀딩스",
     "naver_code": "005490",
     "simple_target": 520000,
-    "weighted_target": 505696,
-    "predicted_surprise_pct": -2.75,
+    "weighted_target": 505801,
+    "predicted_surprise_pct": -2.73,
     "analyst_count": 13,
     "coverage": 7
   },
@@ -120,8 +129,8 @@
     "stock_name": "SK텔레콤",
     "naver_code": "017670",
     "simple_target": 84881,
-    "weighted_target": 87170,
-    "predicted_surprise_pct": 2.7,
+    "weighted_target": 87196,
+    "predicted_surprise_pct": 2.73,
     "analyst_count": 21,
     "coverage": 7
   },
@@ -129,17 +138,26 @@
     "stock_name": "삼성SDI",
     "naver_code": "006400",
     "simple_target": 466706,
-    "weighted_target": 478175,
-    "predicted_surprise_pct": 2.46,
+    "weighted_target": 478279,
+    "predicted_surprise_pct": 2.48,
     "analyst_count": 17,
     "coverage": 10
+  },
+  {
+    "stock_name": "SK스퀘어",
+    "naver_code": "402340",
+    "simple_target": 720000,
+    "weighted_target": 737405,
+    "predicted_surprise_pct": 2.42,
+    "analyst_count": 6,
+    "coverage": 3
   },
   {
     "stock_name": "카카오",
     "naver_code": "035720",
     "simple_target": 84000,
-    "weighted_target": 85991,
-    "predicted_surprise_pct": 2.37,
+    "weighted_target": 85997,
+    "predicted_surprise_pct": 2.38,
     "analyst_count": 16,
     "coverage": 11
   },
@@ -147,16 +165,25 @@
     "stock_name": "S-Oil",
     "naver_code": "010950",
     "simple_target": 121417,
-    "weighted_target": 124268,
-    "predicted_surprise_pct": 2.35,
+    "weighted_target": 124299,
+    "predicted_surprise_pct": 2.37,
     "analyst_count": 12,
+    "coverage": 8
+  },
+  {
+    "stock_name": "HD현대중공업",
+    "naver_code": "329180",
+    "simple_target": 803636,
+    "weighted_target": 822361,
+    "predicted_surprise_pct": 2.33,
+    "analyst_count": 11,
     "coverage": 8
   },
   {
     "stock_name": "LG화학",
     "naver_code": "051910",
     "simple_target": 428571,
-    "weighted_target": 438382,
+    "weighted_target": 438385,
     "predicted_surprise_pct": 2.29,
     "analyst_count": 7,
     "coverage": 6
@@ -165,8 +192,8 @@
     "stock_name": "CJ제일제당",
     "naver_code": "097950",
     "simple_target": 274545,
-    "weighted_target": 280497,
-    "predicted_surprise_pct": 2.17,
+    "weighted_target": 280546,
+    "predicted_surprise_pct": 2.19,
     "analyst_count": 11,
     "coverage": 6
   },
@@ -174,8 +201,8 @@
     "stock_name": "현대차",
     "naver_code": "005380",
     "simple_target": 619545,
-    "weighted_target": 632411,
-    "predicted_surprise_pct": 2.08,
+    "weighted_target": 632571,
+    "predicted_surprise_pct": 2.1,
     "analyst_count": 22,
     "coverage": 12
   },
@@ -183,8 +210,8 @@
     "stock_name": "대한항공",
     "naver_code": "003490",
     "simple_target": 29500,
-    "weighted_target": 30092,
-    "predicted_surprise_pct": 2.01,
+    "weighted_target": 30098,
+    "predicted_surprise_pct": 2.03,
     "analyst_count": 12,
     "coverage": 6
   },
@@ -192,8 +219,8 @@
     "stock_name": "기아",
     "naver_code": "000270",
     "simple_target": 196400,
-    "weighted_target": 200275,
-    "predicted_surprise_pct": 1.97,
+    "weighted_target": 200299,
+    "predicted_surprise_pct": 1.99,
     "analyst_count": 20,
     "coverage": 13
   },
@@ -210,7 +237,7 @@
     "stock_name": "SK바이오팜",
     "naver_code": "326030",
     "simple_target": 150000,
-    "weighted_target": 147602,
+    "weighted_target": 147598,
     "predicted_surprise_pct": -1.6,
     "analyst_count": 4,
     "coverage": 4
@@ -219,16 +246,25 @@
     "stock_name": "롯데케미칼",
     "naver_code": "011170",
     "simple_target": 120500,
-    "weighted_target": 122377,
-    "predicted_surprise_pct": 1.56,
+    "weighted_target": 122392,
+    "predicted_surprise_pct": 1.57,
     "analyst_count": 8,
+    "coverage": 7
+  },
+  {
+    "stock_name": "한국전력",
+    "naver_code": "015760",
+    "simple_target": 71909,
+    "weighted_target": 73024,
+    "predicted_surprise_pct": 1.55,
+    "analyst_count": 11,
     "coverage": 7
   },
   {
     "stock_name": "NAVER",
     "naver_code": "035420",
     "simple_target": 343684,
-    "weighted_target": 338820,
+    "weighted_target": 338806,
     "predicted_surprise_pct": -1.42,
     "analyst_count": 19,
     "coverage": 11
@@ -237,8 +273,8 @@
     "stock_name": "KT&G",
     "naver_code": "033780",
     "simple_target": 185000,
-    "weighted_target": 187169,
-    "predicted_surprise_pct": 1.17,
+    "weighted_target": 187187,
+    "predicted_surprise_pct": 1.18,
     "analyst_count": 10,
     "coverage": 7
   },
@@ -246,8 +282,8 @@
     "stock_name": "HMM",
     "naver_code": "011200",
     "simple_target": 22333,
-    "weighted_target": 22591,
-    "predicted_surprise_pct": 1.15,
+    "weighted_target": 22592,
+    "predicted_surprise_pct": 1.16,
     "analyst_count": 3,
     "coverage": 3
   },
@@ -261,11 +297,20 @@
     "coverage": 4
   },
   {
+    "stock_name": "HD현대일렉트릭",
+    "naver_code": "267260",
+    "simple_target": 1064667,
+    "weighted_target": 1074710,
+    "predicted_surprise_pct": 0.94,
+    "analyst_count": 15,
+    "coverage": 9
+  },
+  {
     "stock_name": "현대제철",
     "naver_code": "004020",
     "simple_target": 45615,
     "weighted_target": 45216,
-    "predicted_surprise_pct": -0.88,
+    "predicted_surprise_pct": -0.87,
     "analyst_count": 13,
     "coverage": 8
   },
@@ -273,10 +318,19 @@
     "stock_name": "삼성에스디에스",
     "naver_code": "018260",
     "simple_target": 220000,
-    "weighted_target": 221826,
-    "predicted_surprise_pct": 0.83,
+    "weighted_target": 221854,
+    "predicted_surprise_pct": 0.84,
     "analyst_count": 6,
     "coverage": 5
+  },
+  {
+    "stock_name": "한화에어로스페이스",
+    "naver_code": "012450",
+    "simple_target": 1575833,
+    "weighted_target": 1588595,
+    "predicted_surprise_pct": 0.81,
+    "analyst_count": 12,
+    "coverage": 9
   },
   {
     "stock_name": "신한지주",
@@ -291,8 +345,8 @@
     "stock_name": "한미약품",
     "naver_code": "128940",
     "simple_target": 591667,
-    "weighted_target": 595604,
-    "predicted_surprise_pct": 0.67,
+    "weighted_target": 595696,
+    "predicted_surprise_pct": 0.68,
     "analyst_count": 12,
     "coverage": 9
   },
@@ -300,7 +354,7 @@
     "stock_name": "우리금융지주",
     "naver_code": "316140",
     "simple_target": 39312,
-    "weighted_target": 39566,
+    "weighted_target": 39570,
     "predicted_surprise_pct": 0.65,
     "analyst_count": 8,
     "coverage": 6
@@ -309,7 +363,7 @@
     "stock_name": "크래프톤",
     "naver_code": "259960",
     "simple_target": 365412,
-    "weighted_target": 363143,
+    "weighted_target": 363150,
     "predicted_surprise_pct": -0.62,
     "analyst_count": 17,
     "coverage": 9
@@ -318,7 +372,7 @@
     "stock_name": "KB금융",
     "naver_code": "105560",
     "simple_target": 182100,
-    "weighted_target": 183138,
+    "weighted_target": 183140,
     "predicted_surprise_pct": 0.57,
     "analyst_count": 10,
     "coverage": 8
@@ -327,35 +381,44 @@
     "stock_name": "넷마블",
     "naver_code": "251270",
     "simple_target": 77211,
-    "weighted_target": 77638,
-    "predicted_surprise_pct": 0.55,
+    "weighted_target": 77640,
+    "predicted_surprise_pct": 0.56,
     "analyst_count": 19,
     "coverage": 11
-  },
-  {
-    "stock_name": "유한양행",
-    "naver_code": "000100",
-    "simple_target": 157273,
-    "weighted_target": 158102,
-    "predicted_surprise_pct": 0.53,
-    "analyst_count": 11,
-    "coverage": 8
   },
   {
     "stock_name": "셀트리온",
     "naver_code": "068270",
     "simple_target": 261538,
-    "weighted_target": 262934,
-    "predicted_surprise_pct": 0.53,
+    "weighted_target": 262950,
+    "predicted_surprise_pct": 0.54,
     "analyst_count": 13,
     "coverage": 9
+  },
+  {
+    "stock_name": "유한양행",
+    "naver_code": "000100",
+    "simple_target": 157273,
+    "weighted_target": 158103,
+    "predicted_surprise_pct": 0.53,
+    "analyst_count": 11,
+    "coverage": 8
+  },
+  {
+    "stock_name": "LG에너지솔루션",
+    "naver_code": "373220",
+    "simple_target": 526500,
+    "weighted_target": 529073,
+    "predicted_surprise_pct": 0.49,
+    "analyst_count": 22,
+    "coverage": 13
   },
   {
     "stock_name": "LG",
     "naver_code": "003550",
     "simple_target": 111250,
-    "weighted_target": 110734,
-    "predicted_surprise_pct": -0.46,
+    "weighted_target": 110729,
+    "predicted_surprise_pct": -0.47,
     "analyst_count": 4,
     "coverage": 4
   },
@@ -363,7 +426,7 @@
     "stock_name": "HD한국조선해양",
     "naver_code": "009540",
     "simple_target": 585000,
-    "weighted_target": 587107,
+    "weighted_target": 587082,
     "predicted_surprise_pct": 0.36,
     "analyst_count": 2,
     "coverage": 2
@@ -372,7 +435,7 @@
     "stock_name": "한화오션",
     "naver_code": "042660",
     "simple_target": 171769,
-    "weighted_target": 172243,
+    "weighted_target": 172249,
     "predicted_surprise_pct": 0.28,
     "analyst_count": 13,
     "coverage": 9
@@ -381,10 +444,19 @@
     "stock_name": "KCC",
     "naver_code": "002380",
     "simple_target": 590000,
-    "weighted_target": 591288,
+    "weighted_target": 591298,
     "predicted_surprise_pct": 0.22,
     "analyst_count": 2,
     "coverage": 2
+  },
+  {
+    "stock_name": "삼성바이오로직스",
+    "naver_code": "207940",
+    "simple_target": 2119000,
+    "weighted_target": 2115618,
+    "predicted_surprise_pct": -0.16,
+    "analyst_count": 10,
+    "coverage": 6
   },
   {
     "stock_name": "하나금융지주",
@@ -393,15 +465,6 @@
     "weighted_target": 128789,
     "predicted_surprise_pct": -0.16,
     "analyst_count": 6,
-    "coverage": 6
-  },
-  {
-    "stock_name": "삼성바이오로직스",
-    "naver_code": "207940",
-    "simple_target": 2119000,
-    "weighted_target": 2115760,
-    "predicted_surprise_pct": -0.15,
-    "analyst_count": 10,
     "coverage": 6
   },
   {
@@ -417,18 +480,36 @@
     "stock_name": "삼성물산",
     "naver_code": "028260",
     "simple_target": 367500,
-    "weighted_target": 367785,
+    "weighted_target": 367794,
     "predicted_surprise_pct": 0.08,
     "analyst_count": 8,
     "coverage": 6
   },
   {
+    "stock_name": "효성중공업",
+    "naver_code": "298040",
+    "simple_target": 3051250,
+    "weighted_target": 3053417,
+    "predicted_surprise_pct": 0.07,
+    "analyst_count": 16,
+    "coverage": 7
+  },
+  {
     "stock_name": "KT",
     "naver_code": "030200",
     "simple_target": 73053,
-    "weighted_target": 73087,
+    "weighted_target": 73091,
     "predicted_surprise_pct": 0.05,
     "analyst_count": 19,
     "coverage": 6
+  },
+  {
+    "stock_name": "두산에너빌리티",
+    "naver_code": "034020",
+    "simple_target": 124545,
+    "weighted_target": 124602,
+    "predicted_surprise_pct": 0.05,
+    "analyst_count": 11,
+    "coverage": 8
   }
 ]
